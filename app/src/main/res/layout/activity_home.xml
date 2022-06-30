@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
             android:hint="Sistema de Evaluación"
             android:textStyle="bold"
@@ -43,7 +43,7 @@
 
         <View
             android:layout_width="fill_parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_height="1.5dp"
@@ -133,7 +133,7 @@
 
         <View
             android:layout_width="fill_parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_height="1.5dp"
@@ -277,21 +277,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:hint="Promedio: 12"
             android:textAlignment="center"
-            android:layout_marginTop="40dp"
-            android:textStyle="bold"
             android:textColorHint="@color/tecsup"
-
             android:textSize="25sp"
-            />
+
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Desaprobado!"
             android:textAlignment="center"
-            android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:textColorHint="@color/red"
             android:textSize="25sp"
@@ -300,8 +298,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="40dp"
             android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/calculo"
             android:text="calcular"
             android:textSize="20sp" />
